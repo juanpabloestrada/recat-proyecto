@@ -1,0 +1,30 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    background-image: url("https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg");
+}
+
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+}
+
+.banner h1 {
+    margin: 0;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px rgba(red, green, blue, alpha);
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+}
+
+.banner p {
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(red, green, blue, alpha);
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "La comunidad del anillo",
+        "author": "JRR Tolkien",
+        "price": 350,
+        "img": "https://www.planetadelibros.com.mx/usuaris/libros/fotos/237/m_libros/236876_portada_el-senor-de-los-anillos-i-la-comunidad-del-anillo_j-r-r-tolkien_201505211345.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Las dos torres",
+        "author": "JRR Tolkien",
+        "price": 340,
+        "img": "https://images.cdn2.buscalibre.com/fit-in/360x360/af/19/af19ca0e19f582bd578ef0f2e102e21f.jpg"
+    },
+    {
+        "id": 3,
+        "name": "El retorno del rey",
+        "author": "JRR Tolkien",
+        "price": 450,
+        "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/0a/c1/0ac1c1d3755b14f6410a76bfe00c0d7a.jpg"
+    },
+    {
+        "id": 4,
+        "name": "El Hobbit",
+        "author": "JRR Tolkien",
+        "price": 250,
+        "img": "https://imagessl6.casadellibro.com/a/l/s5/46/9788445013946.webp"
+    },
+    {
+        "id": 5,
+        "name": "El Simarilion",
+        "author": "JRR Tolkien",
+        "price": 300,
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/ed/e9/ede938451bc178a7934f22349b8caf72.jpg"
+    }
+]

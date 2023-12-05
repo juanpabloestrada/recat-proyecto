@@ -1,15 +1,34 @@
-import "./Navbar.css";
 import { Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 const Navbar = () => {
     return (
-        <div className='nav-containe'>
-            <nav className='navbar'>
-                <h1 className='navbar-logo'>Shop.</h1>
-                <h2 className='mas-vendidos'>Los mas vendidos</h2>
-                <h2 className='ofertas'>Ofertas</h2>
-                <Link className='seeCarrito' to={"/cart"}>🛒</Link>
-            </nav>
-        </div>
+<Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">Tienda de la edad media</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#link">Mas vendidos</Nav.Link>
+            <NavDropdown title="Generos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Accion</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Novelas
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Favoritos</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Sugerencias
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     )
 };
 
